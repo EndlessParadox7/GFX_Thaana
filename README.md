@@ -1,8 +1,8 @@
 ## Important!!
- - KNOWN ISSUE: Text wrapping is always enabled even when disabled. Enabling it may cause the library to behave unexpectedly.
+ - KNOWN ISSUE: Text wrapping is enabled, when disabled. Enabling it may cause the library to behave unexpectedly.
  - Requires Adafruit GFX library.
  - Requires a compatible Adafruit driver for your display.
- - The library was test with Arduino IDE 1.8.16 running on Ubuntu 20.04.3 LTS. Other combinations of software / OS might not work.
+ - The library was tested with Arduino IDE 1.8.16 running on Ubuntu 20.04.3 LTS. Other combinations of software/OS might not work.
  - Fonts are stored in your MCUs programme memory. Make sure your chosen MCU has enough memory to hold the font file and the programme you are writing.
 
 ## What is GFX_Thaana?
@@ -24,3 +24,5 @@ list of such libraries. Probably many more are supported:
  - [https://github.com/adafruit/Adafruit_ILI9340](https://github.com/adafruit/Adafruit_ILI9340) (not tested)
  - [https://github.com/adafruit/Adafruit_ILI9341](https://github.com/adafruit/Adafruit_ILI9341)  (not tested)
  - [https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library) (not tested)
+
+## Pictures
