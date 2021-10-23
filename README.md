@@ -26,3 +26,5 @@ list of such libraries. Probably many more are supported:
  - [https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library) (not tested)
 
 ## Pictures
+<img src="/images/ST7789.jpg" width="425"/> <img src="/images/SSD1306-64.jpg" width="425"/> 
+
