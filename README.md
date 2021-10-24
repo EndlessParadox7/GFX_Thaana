@@ -3,6 +3,7 @@
  - Requires Adafruit GFX library.
  - Requires a compatible Adafruit driver for your display.
  - The library was tested with Arduino IDE 1.8.16 running on Ubuntu 20.04.3 LTS. Other combinations of software/OS might not work.
+ - Thaana letters will appear as blocks in Arduino IDE 1.8.16 under windows.
  - Fonts are stored in your MCUs programme memory. Make sure your chosen MCU has enough memory to hold the font file and the programme you are writing.
 
 ## What is GFX_Thaana?
