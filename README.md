@@ -11,9 +11,12 @@
  - Adds a Thaana character formatter/decoder to all Adafruit GFX based Arduino libraries.
  - Bundles mainstream Thaana 8-Bit GFXfonts compatible with Afadruit GFX library.
 
+## How to install
+ - Download and extract the library to your Arduino IDE libraries folder. (in Windows: C:\Program Files (x86)\Arduino\libraries)
+ - Rename the folder from "GFX_Thaana-main" to "GFX_Thaana"
+ - Restrat Arduino IDE software, the library should now be there and examples should appear in the IDE.
 
 ## Compatibility
-
 All libraries based on the Adafruit GFX engine are supported. This is an incomplete
 list of such libraries. Probably many more are supported:
 
@@ -27,5 +30,5 @@ list of such libraries. Probably many more are supported:
  - [https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library) (not tested)
 
 ## Pictures
-<img src="/images/st7789.jpg" width="240"/> <img src="/images/ssd1306-64.jpg" width="240"/> <img src="/images/ssd1306-32.jpg" width="240"/> 
+<img src="/images/st7789.jpg" width="220"/> <img src="/images/ssd1306-64.jpg" width="220"/> <img src="/images/ssd1306-32.jpg" width="220"/> 
 
