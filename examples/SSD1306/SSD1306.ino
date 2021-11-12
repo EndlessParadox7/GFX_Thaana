@@ -39,7 +39,12 @@ file:///home/assasin/Arduino/DhivehiFontTest/GFX_Thaana.cpp
 #define font elaaf9pt8b
 #include <Fonts/elaaf9pt8b.h>
 
-
+/***************************************************************
+ *      Font name format is FontNameXXpt8b.h
+ *      Where XX is font size. Font size are integers from 8 to 24
+ *      Avaliable fonts:
+ *      dam_kathivalhi , Athuliyun , Faruma , elaaf , LCDThaana , MotaruDhigu
+ ***************************************************************/
 
 #define SCREEN_WIDTH 128 // OLED oledDisp width, in pixels
 #define SCREEN_HEIGHT 32 // OLED oledDisp height, in pixels
