@@ -40,6 +40,13 @@
 #define font dam_kathivalhi18pt8b
 #include "Fonts/dam_kathivalhi18pt8b.h"
 
+/***************************************************************
+ *      Font name format is FontNameXXpt8b.h
+ *      Where XX is font size. Font size are integers from 8 to 24
+ *      Avaliable fonts:
+ *      dam_kathivalhi , Athuliyun , Faruma , elaaf , LCDThaana , MotaruDhigu
+ ***************************************************************/
+
 // ST7789 TFT module connections
 #define TFT_DC    D2     // TFT DC  pin is connected to NodeMCU pin D1 (GPIO5)
 #define TFT_RST  D1     // TFT RST pin is connected to NodeMCU pin D2 (GPIO4)
