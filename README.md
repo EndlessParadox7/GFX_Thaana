@@ -1,5 +1,6 @@
 ## Important!!
  - KNOWN ISSUE: Text will wrap even if text wrapping is disabled. Enabling text wrapping may cause the library to behave unexpectedly.
+ - KNOWN ISSUE: Using F() macro to print to the display does not work.
  - Requires Adafruit GFX library.
  - Requires a compatible Adafruit driver for your display.
  - The library was tested with Arduino IDE 1.8.16 running on Ubuntu 20.04.3 LTS. Other combinations of software/OS might not work.
@@ -12,6 +13,8 @@
  - Bundles mainstream Thaana 8-Bit GFXfonts compatible with Afadruit GFX library.
 
 ## How to install
+1. Use arduino library manager to install and update the library.
+2. Use the following manual method:
  - Download and extract the library to your Arduino IDE libraries folder. (in Windows: C:\Program Files (x86)\Arduino\libraries)
  - Rename the folder from "GFX_Thaana-main" to "GFX_Thaana"
  - Restrat Arduino IDE software, the library should now be there and examples should appear in the IDE.
@@ -27,8 +30,10 @@ list of such libraries. Probably many more are supported:
  - [https://github.com/adafruit/Adafruit_HX8357_Library](https://github.com/adafruit/Adafruit_HX8357_Library) (not tested)
  - [https://github.com/adafruit/Adafruit_ILI9340](https://github.com/adafruit/Adafruit_ILI9340) (not tested)
  - [https://github.com/adafruit/Adafruit_ILI9341](https://github.com/adafruit/Adafruit_ILI9341)  (not tested)
- - [https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library) (not tested)
+ - [https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library](https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library) (tested)
 
 ## Pictures
-<img src="/images/st7789.jpg" width="220"/> <img src="/images/ssd1306-64.jpg" width="220"/> <img src="/images/ssd1306-32.jpg" width="220"/> 
+<img src="/images/st7789.jpg" width="220"/> <img src="/images/ssd1306-64.jpg" width="220"/> <img src="/images/Nokia5110.jpg" width="220"/> 
 
+### Inquiries
+You can reach me at mail.junaidhu@gmail.com
