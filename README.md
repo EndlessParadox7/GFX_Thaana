@@ -1,6 +1,7 @@
 ## Important!!
  - KNOWN ISSUE: Text will wrap even if text wrapping is disabled. Enabling text wrapping may cause the library to behave unexpectedly.
  - KNOWN ISSUE: Using F() macro to print to the display does not work.
+ - KNOWN ISSUE: It seems like you will have to write backwards under windows OS. This will be fixed soon.
  - Requires Adafruit GFX library.
  - Requires a compatible Adafruit driver for your display.
  - The library was tested with Arduino IDE 1.8.16 running on Ubuntu 20.04.3 LTS. Other combinations of software/OS might not work.
